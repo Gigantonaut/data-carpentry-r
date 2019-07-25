@@ -15,3 +15,8 @@ length <- 5
 width <- 3.2
 area <- length * width
 area
+
+# b <- sqrt(x = a)
+
+round(x = 3.14159, digits = 2)
+
