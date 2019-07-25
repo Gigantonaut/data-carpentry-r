@@ -51,6 +51,13 @@ more_respondent_wall_type <- respondent_wall_type[c(1,2,3,2,1,3)]
 
 no_membrs[c(TRUE, FALSE, TRUE, TRUE)]
 no_membrs[no_membrs > 5]
+no_membrs[no_membrs < 3 | no_membrs > 5]
+no_membrs[no_membrs >= 7 & no_membrs ==3]
+
+possessions[possessions == "car" | possessions == "bycicle"] #return both car and bycicle
+possessions %in% c("car", "bicycle")
+possessions [possessions %in% c("car", "bicycle")]
+
 
 
 
