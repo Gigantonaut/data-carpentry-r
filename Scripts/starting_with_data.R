@@ -93,4 +93,10 @@ affect_conflicts[is.na(affect_conflicts)]<-"undetermined"
 affect_conflicts <- as.factor(affect_conflicts)
 plot(affect_conflicts)
 
-more
+levels_affect_conflicts <- more_once (c("more than once"))
+levels (affect_conflicts)[2] <- "more than once"
+levels
+
+levels(affect_conflicts)
+levels(affect_conflicts)[2] <- "more than once"
+plot(affect_conflicts)
