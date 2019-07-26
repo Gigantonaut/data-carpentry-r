@@ -57,3 +57,4 @@ interviews [middle_idx, ]
 
 #4
 interviews_head <- interviews[-(7:n_rows), ]
+interviews_head
